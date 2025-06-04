@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>🌿 Sustainable-Quiz</title>
+  <link rel="stylesheet" href="greenstyle.css">
+  <style>
+    body {
+      overflow-x: hidden;
+      background: linear-gradient(to bottom, #307230, #307230);
+    }
+    .leaf {
+      position: fixed;
+      top: -40px;
+      width: 30px;
+      height: 30px;
+      background-image: url('leaf.png');
+      background-size: cover;
+      animation: fall linear;
+      z-index: 10;
+      opacity: 0.8;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+    }
+
+    #card.animate-border {
+      animation: borderFlash 1s ease-out;
+    }
+
+    @keyframes borderFlash {
+      0% { box-shadow: 0 0 0px #81c784; }
+      50% { box-shadow: 0 0 20px #66bb6a; }
+      100% { box-shadow: 0 0 0px #81c784; }
+    }
+  </style>
+</head>
+<body onload="blattSchauer()">
+  <h1>🌿 Drinking-Game</h1>
+
+  <div id="setup">
+    <h3>add players:</h3>
+    <input type="text" id="spielernamen" placeholder="e.g. Anna, Max, Lisa" />
+
+    <h3>Choose Difficulty:</h3>
+    <select id="schwierigkeit">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <button onclick="spielStarten()">Start Game</button>
+  </div>
+
+  <div id="spielbereich" style="display:none;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h2 id="spielername"></h2>
+      <div>
+        <button onclick="spielerHinzufuegen()">add player</button>
+        <button onclick="zurueckZumStart()">⬅️ Home</button>
+      </div>
+    </div>
+
+    <div id="card" class="fade">Bereit für die nächste Aufgabe?</div>
+    <div id="timer">⏳ 15</div>
+    <div id="explosion" style="display:none; font-size: 2em;">💥</div>
+    <button onclick="zeigeNeueAufgabe()">Next Card</button>
+  </div>
+
+  <script>
+    function blattSchauer() {
+      for (let i = 0; i < 20; i++) {
+        const leaf = document.createElement('div');
+        leaf.className = 'leaf';
+        leaf.style.left = Math.random() * window.innerWidth + 'px';
+        leaf.style.animationDuration = (2 + Math.random() * 2) + 's';
+        leaf.style.animationDelay = (Math.random() * 2) + 's';
+        document.body.appendChild(leaf);
+        setTimeout(() => leaf.remove(), 5000);
+      }
+    }
+  </script>
+  <script src="greenspiel.js"></script>
+</body>
+</html>

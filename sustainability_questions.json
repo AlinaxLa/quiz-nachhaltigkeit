@@ -1,0 +1,102 @@
+{
+  "TrueOrFalse": {
+    "easy": [
+      "Bamboo grows faster than any other plant on Earth.",
+      "Trees can help combat climate change by absorbing carbon dioxide.",
+      "Taking shorter showers can reduce your water footprint significantly.",
+      "LED bulbs use more energy than incandescent ones.",
+      "Composting can reduce landfill waste.",
+      "Fast fashion contributes to water pollution."
+    ],
+    "medium": [
+      "Solar panels work even on cloudy days.",
+      "Buying local food helps reduce carbon emissions.",
+      "Air drying your clothes saves more energy than using a dryer.",
+      "Using a reusable water bottle saves an average of 167 plastic bottles per person per year.",
+      "All plastics are recyclable.",
+      "Most e-waste is properly recycled."
+    ],
+    "hard": [
+      "Paper bags are always better than plastic bags.",
+      "Biodegradable and compostable mean the same thing.",
+      "Eating meat has a higher environmental impact than eating plant-based foods.",
+      "Organic farming uses synthetic pesticides.",
+      "The fashion industry is one of the top polluting industries in the world.",
+      "Recycling one aluminum can saves enough energy to power a TV for three hours.",
+      "Overfishing can collapse entire marine ecosystems.",
+      "You can recycle pizza boxes, even if they're greasy."
+    ]
+  },
+  "Truth": {
+    "easy": [
+      "What\u2019s one thing you\u2019ve learned today about sustainability?",
+      "What sustainable habit do you wish more people adopted?"
+    ],
+    "medium": [
+      "What\u2019s your biggest sustainability pet peeve?",
+      "Would you date someone who didn\u2019t care about the environment?",
+      "Would you pay more for sustainably sourced products?",
+      "Have you ever knowingly bought greenwashed products?"
+    ],
+    "hard": [
+      "Have you ever lied about being eco-friendly?",
+      "What\u2019s the last unsustainable thing you did?",
+      "If you had to give up one unsustainable luxury, what would it be?",
+      "What\u2019s something you could do to reduce your carbon footprint that you\u2019re avoiding?",
+      "Would you rather give up air travel or meat for a year?",
+      "Have you ever shamed someone for not recycling?",
+      "What\u2019s the least sustainable habit you\u2019re guilty of?",
+      "What\u2019s one brand you trust when it comes to sustainability?"
+    ]
+  },
+  "Dare": {
+    "easy": [
+      "Recycle or repurpose something in the room you\u2019re in.",
+      "Drink using a 'reusable' item (even if it\u2019s silly, like a pen).",
+      "Do 10 squats while naming 5 items you can compost."
+    ],
+    "medium": [
+      "Name 3 ocean animals that are endangered.",
+      "Pick an object near you and improvise a recycling PSA about it.",
+      "Convince someone to turn off a light that's on unnecessarily.",
+      "Try to say the word 'sustainability' in five different accents.",
+      "Act out how you feel when someone wastes water."
+    ],
+    "hard": [
+      "Do a 'sustainability cheer' using 3 buzzwords.",
+      "Sing a line from a song using the words 'climate change.'",
+      "Make up a rap about saving the planet.",
+      "Take a 'green' selfie and post it with a funny caption.",
+      "Pretend to be a tree and make everyone hug you.",
+      "Share a sustainability tip like you're a TikTok influencer."
+    ]
+  },
+  "NeverHaveIEver": {
+    "easy": [
+      "Never have I ever left the tap running while brushing my teeth.",
+      "Never have I ever left lights on when leaving a room.",
+      "Never have I ever used plastic utensils.",
+      "Never have I ever used a plastic straw.",
+      "Never have I ever bought bottled water instead of using a reusable one."
+    ],
+    "medium": [
+      "Never have I ever driven when I could have walked or biked.",
+      "Never have I ever printed out something I could\u2019ve just read digitally.",
+      "Never have I ever thrown recyclables in the trash.",
+      "Never have I ever used a single-use coffee cup.",
+      "Never have I ever left my electronics charging overnight unnecessarily.",
+      "Never have I ever thrown batteries in the trash.",
+      "Never have I ever used a plastic bag instead of a reusable one.",
+      "Never have I ever bought something I didn\u2019t need just because it was cheap."
+    ],
+    "hard": [
+      "Never have I ever bought fast fashion without thinking about the impact.",
+      "Never have I ever ignored a 'compost' bin because it was too confusing.",
+      "Never have I ever eaten something knowing it was unsustainable (like endangered seafood).",
+      "Never have I ever flown on a plane without offsetting my carbon emissions.",
+      "Never have I ever wasted food on purpose.",
+      "Never have I ever littered.",
+      "Never have I ever thrown a cigarette butt on the ground."
+    ]
+  }
+}
